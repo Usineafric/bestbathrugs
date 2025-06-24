@@ -1,0 +1,8 @@
+# Netlify redirects for clean URLs
+/Top_5_Ultra-Absorbent_Bath_Rugs_That_Will_Transform_Your_Bathroom_in_2025 /Top_5_Ultra-Absorbent_Bath_Rugs_That_Will_Transform_Your_Bathroom_in_2025.html 200
+/Why_choosing_the_right_bath_rug_matters /Why_choosing_the_right_bath_rug_matters.html 200
+/top_6_bath_rugs_of_2025 /top_6_bath_rugs_of_2025.html 200
+/best_materials_for_your_rug /best_materials_for_your_rug.html 200
+
+# Fallback for SPA
+/* /index.html 200

@@ -1,0 +1,36 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular Background -->
+  <circle cx="100" cy="100" r="90" fill="#5D4037" opacity="0.9" />
+  
+  <!-- Rectangular Bath Rug with 3D Perspective -->
+  <path d="M40 65 L160 65 L145 130 L55 130 Z" fill="#E6D2C8" stroke="#5D4037" stroke-width="2" />
+  
+  <!-- Texture Lines for the Rug -->
+  <path d="M45 75 L155 75" stroke="#8D6E63" stroke-width="1.5" opacity="0.8" />
+  <path d="M47 85 L153 85" stroke="#8D6E63" stroke-width="1.5" opacity="0.8" />
+  <path d="M49 95 L151 95" stroke="#8D6E63" stroke-width="1.5" opacity="0.8" />
+  <path d="M51 105 L149 105" stroke="#8D6E63" stroke-width="1.5" opacity="0.8" />
+  <path d="M53 115 L147 115" stroke="#8D6E63" stroke-width="1.5" opacity="0.8" />
+  <path d="M55 125 L145 125" stroke="#8D6E63" stroke-width="1.5" opacity="0.8" />
+  
+  <!-- Fringe/Texture at the edges -->
+  <path d="M55 130 L55 135" stroke="#E6D2C8" stroke-width="2" />
+  <path d="M65 130 L65 136" stroke="#E6D2C8" stroke-width="2" />
+  <path d="M75 130 L75 137" stroke="#E6D2C8" stroke-width="2" />
+  <path d="M85 130 L85 136" stroke="#E6D2C8" stroke-width="2" />
+  <path d="M95 130 L95 137" stroke="#E6D2C8" stroke-width="2" />
+  <path d="M105 130 L105 136" stroke="#E6D2C8" stroke-width="2" />
+  <path d="M115 130 L115 137" stroke="#E6D2C8" stroke-width="2" />
+  <path d="M125 130 L125 136" stroke="#E6D2C8" stroke-width="2" />
+  <path d="M135 130 L135 137" stroke="#E6D2C8" stroke-width="2" />
+  <path d="M145 130 L145 135" stroke="#E6D2C8" stroke-width="2" />
+  
+  <!-- Water Droplet Accent -->
+  <path d="M135 65C135 65 145 45 145 40C145 33 140 28 135 28C130 28 125 33 125 40C125 45 135 65 135 65Z" fill="#FF7043" />
+  <path d="M135 65C135 65 145 45 145 40C145 33 140 28 135 28C130 28 125 33 125 40C125 45 135 65 135 65Z" stroke="#5D4037" stroke-width="0.5" />
+  
+  <!-- Text "BEST BATH RUGS" -->
+  <text x="100" y="155" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">BEST BATH RUGS</text>
+  
+  
+</svg>
