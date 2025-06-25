@@ -15,6 +15,15 @@
     <title>Top 5 Ultra-Absorbent Bath Rugs That Will Transform Your Bathroom in 2025 - Best Bath Rugs</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
+
+	/* CSS critique pour l'image LCP */
+.hero-image, 
+img[src*="beautiful-bathroom"] {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 800px !important;
+}    
         :root {
             --chocolate: #5D4037; /* Marron chocolat principal */
             --chocolate-light: #8D6E63; /* Version plus claire */
@@ -22,6 +31,13 @@
             --accent: #FF7043; /* Accent orange/corail pour les CTA */
             --bg-light: #F5F5F5; /* Fond clair */
         }
+
+	<!-- Préchargement AVIF -->
+<link rel="preload" 
+      href="https://bestbathrugs.com/images/beautiful-bathroom.avif" 
+      as="image" 
+      type="image/avif"
+      fetchpriority="high">    
         
         @keyframes fadeIn {
           from { opacity: 0; transform: translateY(10px); }
@@ -271,7 +287,6 @@
         }
     </style>
 
-<link rel="preload" as="image" href="images/beautiful-bathroom.webp" fetchpriority="high">
 	<!-- Favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -525,8 +540,13 @@
   <source srcset="images/beautiful-bathroom.webp" type="image/webp">
   <img src="images/beautiful-bathroom.jpg" 
        alt="Modern bathroom with luxurious plush bath rug in front of walk-in shower"
-       width="800" height="240" loading="eager">
-	</picture>
+       width="800" 
+       height="240"
+       loading="eager"
+       fetchpriority="high"
+       decoding="sync"
+       style="width: 100%; height: auto; display: block;">
+</picture>
 	    
         <p class="img-caption">A well-chosen bath rug instantly elevates both safety and style in modern bathrooms</p>
         
